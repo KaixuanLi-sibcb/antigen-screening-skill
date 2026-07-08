@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "id": "ENSG00000999999",
+      "homologies": [
+        {
+          "type": "ortholog_one2many",
+          "source": {
+            "id": "ENSG00000999999",
+            "species": "homo_sapiens",
+            "protein_id": "ENSP00000999999",
+            "align_seq": "MTESTSEQAAA"
+          },
+          "target": {
+            "id": "ENSMUSG00000999001",
+            "display_id": "Testa",
+            "species": "mus_musculus",
+            "protein_id": "ENSMUSP00000999001",
+            "align_seq": "MTESTSEQAAA"
+          },
+          "perc_id": 50.0
+        },
+        {
+          "type": "ortholog_one2many",
+          "source": {
+            "id": "ENSG00000999999",
+            "species": "homo_sapiens",
+            "protein_id": "ENSP00000999999",
+            "align_seq": "MTESTSEQAAA"
+          },
+          "target": {
+            "id": "ENSMUSG00000999002",
+            "display_id": "Testb",
+            "species": "mus_musculus",
+            "protein_id": "ENSMUSP00000999002",
+            "align_seq": "MTESTSEQATA"
+          },
+          "perc_id": 48.0
+        }
+      ]
+    }
+  ]
+}

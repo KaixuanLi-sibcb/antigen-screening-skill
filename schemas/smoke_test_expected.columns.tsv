@@ -1,0 +1,17 @@
+file	column
+antigen_screening_table.tsv	gene_symbol
+antigen_screening_table.tsv	accessibility_gate
+antigen_screening_table.tsv	antigen_accessibility
+antigen_screening_table.tsv	constructability_gate
+antigen_screening_table.tsv	modality_gate
+antigen_screening_table.tsv	priority_call
+risk_flags.tsv	gene_symbol
+risk_flags.tsv	flag_type
+risk_flags.tsv	severity
+risk_flags.tsv	action
+construct_plan.tsv	gene_symbol
+construct_plan.tsv	construct_recommendation
+construct_plan.tsv	stop_condition
+evidence_conflicts.tsv	candidate_id
+evidence_conflicts.tsv	evidence_type
+evidence_conflicts.tsv	conflict_status

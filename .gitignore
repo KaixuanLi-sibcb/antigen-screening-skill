@@ -1,0 +1,24 @@
+__pycache__/
+.pytest_cache/
+smoke_test_output/
+smoke_test_output*/
+smoke_test_output_installed/
+real_data_output/
+real_data_output*/
+real_data_output_installed/
+live_validation_output/
+live_validation_output*/
+coverage_output/
+coverage_output*/
+local_data/
+tests/real_data/private/
+dist/
+*.egg-info/
+.DS_Store
+backup/
+*.xlsx
+*.log
+
+# Editor swap/temp files
+*.swp
+*.swo

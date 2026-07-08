@@ -1,0 +1,20 @@
+column	required	description
+gene_symbol	yes	Gene symbol.
+modality	yes	Requested modality.
+accessibility_gate	yes	Gate 1 call.
+constructability_gate	yes	Gate 5 call.
+ecd_region	yes	ECD region or unavailable reason.
+ecd_length	yes	ECD length if available.
+construct_recommendation	yes	Recommended construct or stop condition.
+construct_variant_1	yes	Primary construct variant.
+construct_variant_2	yes	Secondary construct variant.
+include_signal_peptide	yes	Whether secretion leader should be included.
+remove_tm	yes	Whether TM must be removed.
+remove_cytoplasmic_tail	yes	Whether cytoplasmic tail must be removed.
+tag_strategy	yes	His Avi Fc tag strategy.
+display_strategy	yes	Monomer Fc multimer cell display or none.
+expression_system	yes	Recommended expression system.
+qc_plan	yes	QC plan.
+construct_risks	yes	Construct risks.
+evidence_state	yes	confirmed inferred missing or not_applicable.
+stop_condition	yes	Stop condition if no construct is recommended.

@@ -1,0 +1,27 @@
+{
+  "data": [
+    {
+      "id": "ENSG00000148773",
+      "homologies": [
+        {
+          "type": "ortholog_one2one",
+          "source": {
+            "id": "ENSG00000148773",
+            "species": "homo_sapiens",
+            "protein_id": "ENSP00000357643",
+            "align_seq": "MPSKPTEKQKQEPVQPATASPPVIVKDNKQEKRLSKDG"
+          },
+          "target": {
+            "id": "ENSMUSG00000031004",
+            "display_id": "Mki67",
+            "species": "mus_musculus",
+            "protein_id": "ENSMUSP00000033344",
+            "align_seq": "MPSKPTEKQKQEPVQPATASPPVIVKDNKQEKRLSKDG"
+          },
+          "perc_id": 48.0,
+          "perc_pos": 60.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+name: antigen-screening
+description: Evidence-driven antigen triage, ECD construct planning, and screening strategy.
+entrypoint: ../SKILL.md

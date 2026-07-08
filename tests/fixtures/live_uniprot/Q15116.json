@@ -1,0 +1,100 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "Q15116",
+  "uniProtkbId": "PDCD1_HUMAN",
+  "organism": {
+    "scientificName": "Homo sapiens"
+  },
+  "genes": [
+    {
+      "geneName": {
+        "value": "PDCD1"
+      }
+    }
+  ],
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "Programmed cell death protein 1"
+      }
+    }
+  },
+  "sequence": {
+    "length": 288,
+    "value": "MQIPQAPWPVVWAVLQLGWRPGWFLDSPDRPWNPPTFSPALLVVTEGDNATFTCSFSNTSESFVLNWYRMSPSNQTDKLAAFPEDRSQPGQDCRFRVTQLPNGRDFHMSVVRARRNDSGTYLCGAISLAPKAQIKESLRAELVTERRAEVPTAHPSPSPRPAGQFQTLVVGVVGGLLGSLVLLVWVLAVICSRAARGTIGARRTGQPLKEDPSAVPVFSVDYGELPEPRAPWPSQPLGRAQAGQMVLSPGPGPGGQGTQRAQGQAPGPGPPAGPGQ"
+  },
+  "features": [
+    {
+      "type": "Signal peptide",
+      "location": {
+        "start": {
+          "value": 1
+        },
+        "end": {
+          "value": 20
+        }
+      },
+      "description": ""
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 21
+        },
+        "end": {
+          "value": 170
+        }
+      },
+      "description": "Extracellular"
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 171
+        },
+        "end": {
+          "value": 191
+        }
+      },
+      "description": "Helical"
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 192
+        },
+        "end": {
+          "value": 288
+        }
+      },
+      "description": "Cytoplasmic"
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 35
+        },
+        "end": {
+          "value": 150
+        }
+      },
+      "description": "Ig-like V-type"
+    }
+  ],
+  "comments": [
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "value": "Cell membrane"
+          }
+        }
+      ]
+    }
+  ]
+}

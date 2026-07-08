@@ -1,0 +1,11 @@
+{
+  "gene_symbol": "PDCD1",
+  "rna": [
+    {"tissue": "lymphoid tissue", "level": "medium"},
+    {"tissue": "heart muscle", "level": "low"}
+  ],
+  "protein": [
+    {"tissue": "T cells", "level": "medium", "reliability": "supported"},
+    {"tissue": "heart muscle", "level": "not detected", "reliability": "supported"}
+  ]
+}

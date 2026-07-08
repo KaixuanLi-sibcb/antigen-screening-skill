@@ -1,0 +1,27 @@
+{
+  "primaryAccession": "P15391",
+  "uniProtkbId": "CD19_HUMAN",
+  "genes": [{"geneName": {"value": "CD19"}}],
+  "proteinDescription": {"recommendedName": {"fullName": {"value": "B-lymphocyte antigen CD19"}}},
+  "organism": {"scientificName": "Homo sapiens"},
+  "sequence": {"length": 556},
+  "features": [
+    {"type": "Signal peptide", "location": {"start": {"value": 1}, "end": {"value": 19}}, "description": "Signal peptide"},
+    {"type": "Topological domain", "location": {"start": {"value": 20}, "end": {"value": 291}}, "description": "Extracellular"},
+    {"type": "Transmembrane", "location": {"start": {"value": 292}, "end": {"value": 313}}, "description": "Helical"},
+    {"type": "Topological domain", "location": {"start": {"value": 314}, "end": {"value": 556}}, "description": "Cytoplasmic"},
+    {"type": "Domain", "location": {"start": {"value": 21}, "end": {"value": 113}}, "description": "Ig-like C2-type 1"},
+    {"type": "Domain", "location": {"start": {"value": 118}, "end": {"value": 220}}, "description": "Ig-like C2-type 2"}
+  ],
+  "comments": [
+    {"commentType": "SUBCELLULAR LOCATION", "subcellularLocations": [{"location": {"value": "Cell membrane"}}]}
+  ],
+  "normal_tissue_risk": {
+    "class": "medium",
+    "evidence_state": "confirmed",
+    "notes": "B-cell lineage expression; acceptable in some B-cell malignancy CAR contexts but causes B-cell aplasia."
+  },
+  "known_evidence": "approved CD19 CAR-T and antibody-based evidence exists; also indicates lineage toxicity and crowded target space",
+  "orthology": {"human_mouse_ecd_identity": 0.55, "evidence_state": "inferred"},
+  "isoform_ambiguity": false
+}

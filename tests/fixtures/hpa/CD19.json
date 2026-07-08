@@ -1,0 +1,11 @@
+{
+  "gene_symbol": "CD19",
+  "rna": [
+    {"tissue": "bone marrow", "level": "medium"},
+    {"tissue": "B cells", "level": "high"}
+  ],
+  "protein": [
+    {"tissue": "B cells", "level": "high", "reliability": "enhanced"},
+    {"tissue": "bone marrow", "level": "medium", "reliability": "supported"}
+  ]
+}

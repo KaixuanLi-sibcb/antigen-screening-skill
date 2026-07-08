@@ -1,0 +1,11 @@
+{
+  "gene_symbol": "MKI67",
+  "rna": [
+    {"tissue": "bone marrow", "level": ""},
+    {"tissue": "brain", "level": ""}
+  ],
+  "protein": [
+    {"tissue": "bone marrow", "level": ""},
+    {"tissue": "brain", "level": ""}
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EvidenceRecord v2",
+  "description": "Provenance contract for antigen-screening evidence records. Missing evidence is not negative evidence.",
+  "type": "object",
+  "required": [
+    "record_version",
+    "candidate_id",
+    "gene_symbol",
+    "species",
+    "uniprot_accession",
+    "ensembl_gene_id",
+    "evidence_type",
+    "evidence_value",
+    "normalized_value",
+    "evidence_status",
+    "source_name",
+    "source_authority_level",
+    "source_url",
+    "source_version",
+    "retrieved_at",
+    "query",
+    "adapter_name",
+    "adapter_version",
+    "raw_response_sha256",
+    "confidence",
+    "conflict_status",
+    "failure_mode",
+    "license_note"
+  ],
+  "properties": {
+    "record_version": {
+      "type": "string",
+      "const": "2.0"
+    },
+    "candidate_id": {
+      "type": "string"
+    },
+    "gene_symbol": {
+      "type": "string"
+    },
+    "species": {
+      "type": "string"
+    },
+    "uniprot_accession": {
+      "type": "string"
+    },
+    "ensembl_gene_id": {
+      "type": "string"
+    },
+    "evidence_type": {
+      "type": "string"
+    },
+    "evidence_value": {
+      "type": "string"
+    },
+    "normalized_value": {
+      "type": "string"
+    },
+    "evidence_status": {
+      "type": "string",
+      "enum": [
+        "confirmed_live",
+        "confirmed_local_xlsx",
+        "confirmed_fixture",
+        "inferred_live",
+        "inferred_local_xlsx",
+        "missing",
+        "not_applicable",
+        "conflict",
+        "error"
+      ]
+    },
+    "source_name": {
+      "type": "string"
+    },
+    "source_authority_level": {
+      "type": "string",
+      "enum": [
+        "local_lab",
+        "fixture",
+        "curated_database",
+        "public_database",
+        "computed",
+        "unknown"
+      ]
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "source_version": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string"
+    },
+    "query": {
+      "type": "string"
+    },
+    "adapter_name": {
+      "type": "string"
+    },
+    "adapter_version": {
+      "type": "string"
+    },
+    "raw_response_sha256": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string"
+    },
+    "conflict_status": {
+      "type": "string",
+      "enum": [
+        "none",
+        "value_conflict",
+        "source_conflict",
+        "version_conflict",
+        "missing_conflict",
+        "not_checked"
+      ]
+    },
+    "failure_mode": {
+      "type": "string"
+    },
+    "license_note": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

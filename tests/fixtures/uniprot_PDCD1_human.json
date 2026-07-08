@@ -1,0 +1,26 @@
+{
+  "primaryAccession": "Q15116",
+  "uniProtkbId": "PDCD1_HUMAN",
+  "genes": [{"geneName": {"value": "PDCD1"}}],
+  "proteinDescription": {"recommendedName": {"fullName": {"value": "Programmed cell death protein 1"}}},
+  "organism": {"scientificName": "Homo sapiens"},
+  "sequence": {"length": 288},
+  "features": [
+    {"type": "Signal peptide", "location": {"start": {"value": 1}, "end": {"value": 20}}, "description": "Signal peptide"},
+    {"type": "Topological domain", "location": {"start": {"value": 21}, "end": {"value": 170}}, "description": "Extracellular"},
+    {"type": "Transmembrane", "location": {"start": {"value": 171}, "end": {"value": 191}}, "description": "Helical"},
+    {"type": "Topological domain", "location": {"start": {"value": 192}, "end": {"value": 288}}, "description": "Cytoplasmic"},
+    {"type": "Domain", "location": {"start": {"value": 35}, "end": {"value": 145}}, "description": "Ig-like V-type"}
+  ],
+  "comments": [
+    {"commentType": "SUBCELLULAR LOCATION", "subcellularLocations": [{"location": {"value": "Cell membrane"}}]}
+  ],
+  "normal_tissue_risk": {
+    "class": "medium",
+    "evidence_state": "inferred",
+    "notes": "Immune checkpoint expression can affect normal immune compartments."
+  },
+  "known_evidence": "approved and clinical antibody evidence exists; interpret as tractability plus immune safety consideration",
+  "orthology": {"human_mouse_ecd_identity": 0.66, "evidence_state": "inferred"},
+  "isoform_ambiguity": false
+}

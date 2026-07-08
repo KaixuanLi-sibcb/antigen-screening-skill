@@ -1,0 +1,28 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "P99999",
+  "uniProtkbId": "NOTOP_HUMAN",
+  "organism": {
+    "scientificName": "Homo sapiens"
+  },
+  "genes": [
+    {
+      "geneName": {
+        "value": "NOTOP"
+      }
+    }
+  ],
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "No topology test protein"
+      }
+    }
+  },
+  "sequence": {
+    "length": 30,
+    "value": "MNNNNNNNNNNNNNNNNNNNNNNNNNNNNN"
+  },
+  "features": [],
+  "comments": []
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Candidate input row",
+  "type": "object",
+  "required": ["gene_symbol", "species"],
+  "properties": {
+    "gene_symbol": {"type": "string", "minLength": 1},
+    "species": {"type": "string", "default": "human"},
+    "modality": {
+      "type": "string",
+      "enum": ["antibody", "car_t", "adc", "bispecific", "soluble_ecd_screen", "unknown"]
+    },
+    "disease_context": {"type": "string"},
+    "user_evidence": {"type": "string"},
+    "uniprot_accession": {"type": "string"}
+  },
+  "additionalProperties": true
+}

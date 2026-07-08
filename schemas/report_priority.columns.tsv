@@ -1,0 +1,36 @@
+column	description
+report_rank	Report-ready rank after applying the selected identity preference.
+rank_bucket	A/B/C/D report bucket.
+rank_bucket_label	Human-readable report bucket label.
+report_priority_score	Tie-break score used only within report buckets.
+identity_preference	Identity interpretation mode used for ranking.
+recommendation	Recommended report-level action.
+candidate_id	Stable upstream candidate identifier.
+gene_symbol	Gene symbol.
+uniprot_accession	UniProt accession when available.
+protein_name	Protein name when available.
+membrane_group	Local tabular membrane-evidence group when available.
+antigen_accessibility	Accessibility classification from upstream screening.
+accessibility_gate	Upstream antigen accessibility gate.
+ecd_region	ECD coordinate or region from upstream screening.
+ecd_length	ECD length in amino acids when available.
+human_mouse_ecd_identity	Human-mouse ECD identity fraction.
+human_mouse_ecd_identity_pct	Human-mouse ECD identity percentage.
+human_mouse_divergence_class	Identity interpretation class under the selected preference.
+original_mouse_model_transferability_gate	Original high-conservation mouse-model gate, retained for audit.
+constructability_gate	Upstream constructability gate.
+constructability_class	Upstream constructability class.
+construct_recommendation	Construct recommendation when construct plan is supplied.
+primary_strategy	Primary screening strategy when strategy output is supplied.
+secondary_strategy	Secondary screening strategy when strategy output is supplied.
+normal_tissue_risk	Normal tissue risk call from upstream adapter.
+normal_tissue_risk_detail	High-risk tissue detail when available.
+pipeline_priority_call	Original upstream priority call.
+local_evidence_source_count	Count of local tabular evidence source columns.
+local_evidence_sources	Names of local tabular evidence sources.
+risk_flags_original	Original upstream risk flags.
+readiness_flags	Antigen readiness flags when supplied.
+passed_reasons	Concise reasons supporting the report rank.
+caution_or_fail_reasons	Concise reasons for caution, deprioritization, or follow-up.
+next_action	Recommended next action.
+coverage_missing_reason	Coverage diagnostic primary missingness reason when supplied.

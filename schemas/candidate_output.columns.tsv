@@ -1,0 +1,39 @@
+column	required	description
+candidate_id	yes	Stable row identifier from input order.
+input_name	yes	Original candidate label.
+species	yes	Input species.
+gene_symbol	yes	Normalized gene symbol used for fixture lookup.
+modality	yes	Requested modality.
+disease_context	yes	User or input disease context.
+user_evidence	yes	User-provided evidence text.
+uniprot_accession	yes	UniProt accession when available.
+protein_name	yes	Protein name.
+antigen_accessibility	yes	Topology class.
+accessibility_gate	yes	Gate 1 call.
+accessibility_evidence_state	yes	confirmed inferred missing or not_applicable.
+topology_evidence	yes	Topology evidence summary.
+ecd_region	yes	ECD coordinate range or unavailable reason.
+ecd_length	yes	ECD length when available.
+ecd_evidence_state	yes	ECD evidence state.
+ecd_boundary_confidence	yes	high medium low or none.
+ecd_notes	yes	ECD notes.
+isoform_risk	yes	Isoform ambiguity flag.
+disease_relevance_gate	yes	Gate 2 call.
+disease_evidence_state	yes	Disease relevance evidence state.
+normal_tissue_risk	yes	Gate 3 class.
+normal_tissue_risk_evidence_state	yes	Normal expression evidence state.
+mouse_model_transferability_gate	yes	Gate 4 call.
+human_mouse_ecd_identity	yes	ECD identity if available.
+ecd_identity_threshold	yes	Configured threshold.
+orthology_evidence_state	yes	Orthology evidence state.
+constructability_gate	yes	Gate 5 call.
+constructability_class	yes	Construct class.
+modality_fit	yes	Modality-specific fit call.
+modality_gate	yes	Modality gate call.
+modality_evidence_state	yes	Modality evidence state.
+known_evidence	yes	Known drug antibody CAR ADC or literature evidence summary.
+risk_flags	yes	Semicolon-delimited risk flags.
+tie_break_score	yes	Numeric score used only after gates.
+priority_call	yes	go conditional no_go or control_or_not_applicable.
+decision_rationale	yes	Short rationale.
+missing_evidence	yes	Semicolon-delimited missing evidence.

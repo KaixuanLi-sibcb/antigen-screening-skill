@@ -1,0 +1,23 @@
+{
+  "primaryAccession": "P46013",
+  "uniProtkbId": "KI67_HUMAN",
+  "genes": [{"geneName": {"value": "MKI67"}}],
+  "proteinDescription": {"recommendedName": {"fullName": {"value": "Proliferation marker protein Ki-67"}}},
+  "organism": {"scientificName": "Homo sapiens"},
+  "sequence": {"length": 3256},
+  "features": [
+    {"type": "Domain", "location": {"start": {"value": 1}, "end": {"value": 120}}, "description": "Forkhead-associated domain"},
+    {"type": "Domain", "location": {"start": {"value": 500}, "end": {"value": 2500}}, "description": "Ki-67 repeat region"}
+  ],
+  "comments": [
+    {"commentType": "SUBCELLULAR LOCATION", "subcellularLocations": [{"location": {"value": "Nucleus"}}, {"location": {"value": "Chromosome"}}]}
+  ],
+  "normal_tissue_risk": {
+    "class": "unknown",
+    "evidence_state": "missing",
+    "notes": "Normal tissue surface risk is not applicable until surface access exists."
+  },
+  "known_evidence": "nuclear proliferation marker; negative control for surface antigen screening",
+  "orthology": {"human_mouse_ecd_identity": null, "evidence_state": "missing"},
+  "isoform_ambiguity": false
+}

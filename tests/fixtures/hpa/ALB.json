@@ -1,0 +1,10 @@
+{
+  "gene_symbol": "ALB",
+  "rna": [
+    {"tissue": "liver", "level": "high"}
+  ],
+  "protein": [
+    {"tissue": "liver", "level": "high", "reliability": "enhanced"},
+    {"tissue": "blood", "level": "high", "reliability": "supported"}
+  ]
+}

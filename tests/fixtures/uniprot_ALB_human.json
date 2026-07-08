@@ -1,0 +1,26 @@
+{
+  "primaryAccession": "P02768",
+  "uniProtkbId": "ALBU_HUMAN",
+  "genes": [{"geneName": {"value": "ALB"}}],
+  "proteinDescription": {"recommendedName": {"fullName": {"value": "Albumin"}}},
+  "organism": {"scientificName": "Homo sapiens"},
+  "sequence": {"length": 609},
+  "features": [
+    {"type": "Signal peptide", "location": {"start": {"value": 1}, "end": {"value": 18}}, "description": "Signal peptide"},
+    {"type": "Chain", "location": {"start": {"value": 25}, "end": {"value": 609}}, "description": "Serum albumin"},
+    {"type": "Domain", "location": {"start": {"value": 25}, "end": {"value": 210}}, "description": "Albumin domain 1"},
+    {"type": "Domain", "location": {"start": {"value": 211}, "end": {"value": 403}}, "description": "Albumin domain 2"},
+    {"type": "Domain", "location": {"start": {"value": 404}, "end": {"value": 609}}, "description": "Albumin domain 3"}
+  ],
+  "comments": [
+    {"commentType": "SUBCELLULAR LOCATION", "subcellularLocations": [{"location": {"value": "Secreted"}}]}
+  ],
+  "normal_tissue_risk": {
+    "class": "high",
+    "evidence_state": "confirmed",
+    "notes": "Highly abundant liver-secreted plasma protein; major soluble antigen sink and normal tissue/plasma abundance risk."
+  },
+  "known_evidence": "secreted protein and common biochemical control; not a transmembrane CAR target",
+  "orthology": {"human_mouse_ecd_identity": 0.72, "evidence_state": "inferred"},
+  "isoform_ambiguity": false
+}

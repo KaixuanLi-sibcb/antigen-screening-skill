@@ -1,0 +1,28 @@
+column	description
+candidate_id	Stable candidate identifier from the input or upstream screening table.
+gene_symbol	Input or resolved human gene symbol.
+species	Input species.
+input_identifier	Original identifier used for mapping.
+resolved_gene_symbol	Resolved gene symbol after exact, alias, UniProt, or Ensembl rescue.
+hgnc_status	HGNC mapping status or not_checked when not available.
+uniprot_accession	Resolved UniProt accession when available.
+uniprot_status	UniProt mapping or evidence coverage status.
+ensembl_gene_id	Resolved Ensembl gene ID when available.
+ensembl_status	Ensembl mapping or evidence coverage status.
+mouse_ortholog_symbol	Resolved mouse ortholog symbol when available.
+mouse_ortholog_status	Mouse ortholog coverage status.
+hpa_status	HPA normal-tissue evidence coverage status.
+gtex_status	GTEx expression evidence coverage status.
+opentargets_status	Open Targets evidence coverage status.
+chembl_status	ChEMBL evidence coverage status.
+clinicaltrials_status	ClinicalTrials evidence coverage status.
+normal_tissue_status	Combined normal-tissue coverage status.
+drug_evidence_status	Combined drug, biologic, CAR, ADC, or clinical evidence coverage status.
+construct_status	Constructability or construct-planning coverage status.
+live_ecd_status	Live ECD validation coverage status.
+evidence_status_overall	Overall diagnostic status for the candidate.
+missing_reason_primary	Primary controlled-vocabulary reason for missing or unknown evidence.
+missing_reason_secondary	Secondary controlled-vocabulary reasons separated by semicolon.
+recommended_rescue_action	Recommended next action to improve evidence coverage.
+confidence	Diagnostic confidence: high, medium, low, or unknown.
+notes	Human-readable notes.

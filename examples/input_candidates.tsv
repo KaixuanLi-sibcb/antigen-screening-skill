@@ -1,0 +1,5 @@
+gene_symbol	species	modality	disease_context	user_evidence
+PDCD1	human	antibody	immune checkpoint	manual positive control
+CD19	human	car_t	B-cell malignancy	manual positive control
+ALB	human	car_t	negative control	secreted protein negative for CAR
+MKI67	human	antibody	negative control	nuclear marker negative control
